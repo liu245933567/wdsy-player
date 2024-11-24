@@ -20,8 +20,9 @@ pnpm dev
 
 环境变量讲解
 
-- `DB_HOST` 十六位的十六进制字符
-- `DB_PASS` 十六位的十六进制字符
+- `DB_HOST` 数据库地址
+- `DB_USER` 数据库用户名
+- `DB_PASS` 数据库密码
 - `DB_SDK` SDK 数据库名称
 - `DB_ADB` ADB 数据库名称
 - `DB_DDB` DDB 数据库名称
@@ -30,6 +31,8 @@ pnpm dev
 
 ```env
 DB_HOST = "192.168.33.134"
+
+DB_USER = "root"
 
 DB_PASS = "123456"
 
